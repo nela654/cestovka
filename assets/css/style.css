@@ -58,6 +58,7 @@ h1,h2,h3{
     flex-direction: column;
     align-items: center;
     gap: var(--medzera-s);
+    padding: var(--medzera-m) 0;
 }
 
 .navigacia__zoznam{
@@ -65,14 +66,29 @@ h1,h2,h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    gap: var(--medzera-l);
+    
 }
 
 .navigacia__odkaz:hover{
 
+    background-color: #163085;
+    
+    
     
 }
 
+.navigacia__odkaz{
+    font-weight: 600;
+    padding: 0.5rem var(--medzera-m);
+    border-radius: 4px;
+    transition: var(--primarna-tmava);
+}
+
+.navigacia{
+
+    margin: var(--medzera-m);
+}
 
 
 
