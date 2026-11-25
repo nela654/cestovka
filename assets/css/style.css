@@ -52,7 +52,7 @@ h1,h2,h3{
 
 .hlavicka{
 
-    background-color: var(--primarna-tmava);
+    background-color: var(--primarna);
     color: var(--pozadie-biela);
     display: flex;
     flex-direction: column;
@@ -73,9 +73,6 @@ h1,h2,h3{
 .navigacia__odkaz:hover{
 
     background-color: #163085;
-    
-    
-    
 }
 
 .navigacia__odkaz{
@@ -93,3 +90,30 @@ h1,h2,h3{
 
 
 
+/* Hero Sekcia */
+
+.hero{
+
+    color: var(--pozadie-biela);
+    background: linear-gradient(135deg, var(--primarna), var(--primarna-tmava));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--medzera-s);
+    padding: var(--medzera-m);
+}
+
+.tlacidlo{
+
+    background-color: var(--akcent);
+    padding: 0.45rem var(--medzera-m);
+    border-radius: 4px;
+    font-weight: 600;
+    transition: all, 0.3s;
+}
+
+.tlacidlo:hover{
+
+    background-color: #ad4d08;
+
+}
