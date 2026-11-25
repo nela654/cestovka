@@ -117,3 +117,21 @@ h1,h2,h3{
     background-color: #ad4d08;
 
 }
+
+
+.dôvody{
+    background-color: var(--pozadie-svetla)
+
+}
+
+.vyhody{
+
+
+}
+
+.vyhoda{
+
+background-color: var(--pozadie-biela);
+padding: var(--medzera-m);
+box-shadow: 0px 2px 8px;
+}
